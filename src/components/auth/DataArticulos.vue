@@ -73,6 +73,14 @@
                     <v-col
                       cols="12"
                     >
+                      <v-text-field
+                        v-model="editedItem.urlImage"
+                        label="Url Imagen"
+                      ></v-text-field>
+                    </v-col>
+                    <v-col
+                      cols="12"
+                    >
                       <v-select
                         v-model="categoria"
                         label="Categoría"
@@ -106,7 +114,7 @@
             </v-card>
           </v-dialog>
 
-          <v-dialog v-model="dialogEstado" max-width="300px">
+          <v-dialog v-model="dialogEstado" max-width="350px">
             <v-card>
               <v-card-title class="headline">{{ cardEstadoTitle }}</v-card-title>
               <v-card-actions>
@@ -189,6 +197,7 @@ data: () => ({
       nombre: '',
       descripcion: '',
       estado: 0,
+      urlImage: '',
       categoria: {
         id: 0,
         nombre: ''
@@ -199,6 +208,7 @@ data: () => ({
       nombre: '',
       descripcion: '',
       estado: 0,
+      urlImage: '',
       categoria: {
         id: 0,
         nombre: ''
