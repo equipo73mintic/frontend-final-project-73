@@ -4,7 +4,7 @@
     <landing-info> </landing-info>
     <landing-services> </landing-services>
     <landing-customers> </landing-customers>
-    <landing-footer> </landing-footer>
+    <!-- <landing-footer> </landing-footer> -->
   </div>
 </template>
 

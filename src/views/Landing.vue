@@ -4,17 +4,17 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav navegadores">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" @click="$router.push({ path: '/' })">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nosotros</a>
+            <a class="nav-link"  @click="$router.push({ path: '/nosotros' })" >Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Proyectos</a>
+            <a class="nav-link" @click="$router.push({ path: '/proyectos' })">Proyectos</a>
           </li>
          
           <li class="nav-item">
-            <a class="nav-link" href="#" >Contacto</a>
+            <a class="nav-link" @click="$router.push({ path: '/contacto' })">Contacto</a>
           </li>
         </ul>
         <a @click="$router.push({ path: '/login' })" type="button" class="myButton">Login</a>

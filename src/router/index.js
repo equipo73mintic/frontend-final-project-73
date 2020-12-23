@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/landing/Home.vue'
+import Nosotros from '../views/landing/Nosotros.vue'
+import Proyectos from '../views/landing/Proyectos.vue'
+import Contacto from '../views/landing/Contacto.vue'
 import Landing from '../views/Landing.vue'
 import store from '../store'
 
@@ -17,6 +20,30 @@ const routes = [{
                 path: '/',
                 name: 'Home',
                 component: Home,
+                meta: {
+                    public: true
+                }
+            },
+            {
+                path: '/nosotros',
+                name: 'Nosotros',
+                component: Nosotros,
+                meta: {
+                    public: true
+                }
+            },
+            {
+                path: '/proyectos',
+                name: 'Proyectos',
+                component: Proyectos,
+                meta: {
+                    public: true
+                }
+            },
+            {
+                path: '/contacto',
+                name: 'Contacto',
+                component: Contacto,
                 meta: {
                     public: true
                 }
