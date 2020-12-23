@@ -12,7 +12,6 @@
           class="active"
         ></li>
         <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
       </ol>
 
       <div class="carousel-inner">
@@ -27,13 +26,7 @@
               </button>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="@/assets/imagenesCarrusel/img2.jpg" class="d-block w-100"  />
-          <div class="carousel-caption ">
-            <!-- <h5>Second slide label</h5>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
-          </div>
-        </div>
+        
         <div class="carousel-item">
           <img src="@/assets/imagenesCarrusel/img3.png" class="d-block w-100"  />
           <div class="carousel-caption" style="margin-top: 50px">
@@ -73,10 +66,12 @@ export default {
 
 <style>
 .btnInfo{
-  height: 30px;
+  background-color: #355a2a;
+  height: 28px;
 }
 .textInfo{
-  color: #355a2a !important;
+  /* color: #ffffff  !important; */
+  text-align: center;
 }
 
 #carouselExampleCaptions{
