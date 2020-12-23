@@ -1,5 +1,9 @@
 <template>
-  <h1>customers</h1>
+
+<div class="container">
+
+</div>
+
 </template>
 
 <script>

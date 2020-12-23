@@ -1,5 +1,5 @@
 <template>
-  <h1>los servicios van aqui</h1>
+  <h1 class="container">los servicios van aqui</h1>
 </template>
 
 <script>
