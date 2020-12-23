@@ -16,9 +16,9 @@
         <div class="d-flex justify-content-center form_container">
            
           <form>
-
             <div class="text_company">
             <div class="d-flex justify-content-center links">Green Energy</div>
+            <!-- padding -->
           </div>
 
             <div class="input-group mb-3">

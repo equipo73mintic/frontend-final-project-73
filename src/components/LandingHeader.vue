@@ -1,18 +1,34 @@
 <template>
-  <v-container>
-    <!-- inicio header -->
-    <LandingHeader></LandingHeader>
-    <!-- fin header -->
-  </v-container>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+     
+
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nosotros</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" >Contacto</a>
+        </li>
+      </ul>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </div>
+
+
+    </nav>
+  </div>
 </template>
 
 <script>
-import LandingHeader from "@/components/LandingHeader.vue";
 export default {
-  name: "LandingPage",
-  components: {
-    LandingHeader,
-  },
+  name: "LandingHeader",
 
   data: () => ({
     ecosystem: [
