@@ -1,5 +1,5 @@
 <template>
-  <div class="container ">
+  <div >
     <nav class="navbar navbar-expand-lg float-right">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
