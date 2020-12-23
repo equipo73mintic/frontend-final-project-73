@@ -3,20 +3,81 @@
     <div>Contribuimos a la disminución de la huella de carbon</div>
     <div class="row">
 
-      <div class="info">
-        primer
+      <div class="col-3">
+        <div class="row">
+          <div class="col-5">
+            <img src="@/assets/logo.png" alt="" />
+          </div>
+          <div class="col-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              aut, suscipit delectus facilis mollitia, illum eum odit dolorum
+              culpa sunt ex at. Enim dolores similique, qui totam aliquid autem
+              vitae.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="info">
-        segundo
+
+
+      
+      <div class="col-3">
+        <div class="row">
+          <div class="col-5">
+            <img src="@/assets/logo.png" alt="" />
+          </div>
+          <div class="col-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              aut, suscipit delectus facilis mollitia, illum eum odit dolorum
+              culpa sunt ex at. Enim dolores similique, qui totam aliquid autem
+              vitae.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="info">
-        tercero
+
+
+
+      
+      <div class="col-3">
+        <div class="row">
+          <div class="col-5">
+            <img src="@/assets/logo.png" alt="" />
+          </div>
+          <div class="col-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              aut, suscipit delectus facilis mollitia, illum eum odit dolorum
+              culpa sunt ex at. Enim dolores similique, qui totam aliquid autem
+              vitae.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="info">
-        cuarto
+
+
+
+
+      
+      <div class="col-3">
+        <div class="row">
+          <div class="col-5">
+            <img src="@/assets/logo.png" alt="" />
+          </div>
+          <div class="col-7">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla
+              aut, suscipit delectus facilis mollitia, illum eum odit dolorum
+              culpa sunt ex at. Enim dolores similique, qui totam aliquid autem
+              vitae.
+            </p>
+          </div>
+        </div>
       </div>
 
     </div>
+
     <div>Proyectos</div>
     <div class="row">
       <!-- car 1 -->
@@ -63,8 +124,6 @@
           </div>
         </div>
       </div>
-
-
     </div>
   </div>
 </template>
@@ -125,5 +184,14 @@ export default {
 
 .row {
   justify-content: space-evenly;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  width: 100%;
 }
 </style>
