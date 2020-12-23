@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div class="landing">
     <landing-carousel> </landing-carousel>
     <landing-info> </landing-info>
     <landing-services> </landing-services>
@@ -27,3 +27,4 @@ export default {
 
 }
 </script>
+

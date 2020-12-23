@@ -15,3 +15,8 @@ export default {
   }
 }
 </script>
+<style >
+ .home{
+   background-color:white;
+ }
+</style>
