@@ -1,5 +1,5 @@
 <template>
-  <div >
+  <div class="landign-container">
     <nav class="navbar navbar-expand-lg float-right">
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -34,16 +34,13 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+nav {
+  align-self: flex-end;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.landign-container{
+  display: flex; 
+  flex-direction:column;
 }
 </style>
