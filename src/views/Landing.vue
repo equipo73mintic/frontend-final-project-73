@@ -12,6 +12,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Proyectos</a>
           </li>
+         
           <li class="nav-item">
             <a class="nav-link" href="#" >Contacto</a>
           </li>
