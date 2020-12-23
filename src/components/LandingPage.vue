@@ -1,6 +1,5 @@
 <template>
   <div >
-    <h1>hola</h1>
     <landing-carousel> </landing-carousel>
   </div>
 </template>

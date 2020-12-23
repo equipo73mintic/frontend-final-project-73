@@ -19,6 +19,9 @@
         <button @click="$router.push({ path: '/login' })" class="btn btn-secondary btn-lg">Login</button>
       </div>
     </nav>
+    <section>
+      <router-view/>
+    </section>
   </div>
 </template>
 
