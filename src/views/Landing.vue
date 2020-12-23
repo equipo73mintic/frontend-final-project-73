@@ -20,25 +20,6 @@
       </div>
     </nav>
   </div>
-
-  <!-- <v-app id="inspire">
-    <v-app-bar app color="deep-purple darken-4" dark>
-      <v-toolbar-title>PageName</v-toolbar-title>
-      <v-spacer></v-spacer>
-
-      <v-btn icon class="mr-5" :to="{ path: '/login' }">
-        <v-icon> mdi-login </v-icon>
-        <span>Log In</span>
-      </v-btn>
-    </v-app-bar>
-
-    <v-main class="">
-      <v-container>
-        <router-view />
-      </v-container>
-    </v-main>
-  </v-app>
- <a class="btn btn-outline-success" type="button" :to="{ path: '/login' }">Search</a> -->
 </template>
 
 <style>

@@ -1,10 +1,11 @@
 <template>
   <div class="home">
-    <LandingPage/>
+    <h1>home</h1>
+    <landing-page></landing-page>
   </div>
 </template>
 
-<script>
+<script>  
 // @ is an alias to /src
 import LandingPage from '@/components/LandingPage.vue'
 
