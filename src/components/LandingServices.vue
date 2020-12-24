@@ -62,6 +62,6 @@ export default {
 }
 
 .card {
-    min-height: 350px;
+    min-height: 200px;
 }
 </style>

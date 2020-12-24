@@ -18,12 +18,7 @@
         <div class="carousel-item active">
           <img src="@/assets/imagenesCarrusel/img1.png" class="d-block w-100"  />
           <div class="carousel-caption ">
-            <button
-                type="button"
-                class="btn btn-light btnInfo"
-              >
-              <p class="textInfo">Contactanos</p>
-              </button>
+            
           </div>
         </div>
         
