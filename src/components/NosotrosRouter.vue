@@ -7,13 +7,11 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <img src="@/assets/Team/geral.jpeg" alt="">
+                <img src="@/assets/Team/geral.jpeg" alt="" />
               </div>
-              <p class="title">Geraldine Claros</p>
-              <p>
-                Desarrolladora Frontend
-              </p>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <h1 class="title">Geraldine Claros</h1>
+              <p>Desarrolladora Frontend</p>
+              <a href="#"><i class="fab fa-linkedin Git-hub"></i></a>
             </div>
           </div>
         </div>
@@ -21,13 +19,11 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <img src="@/assets/Team/yaser.jpeg" alt="">
+                <img src="@/assets/Team/yaser.jpeg" alt="" />
               </div>
-              <p class="title">Yasar</p>
-              <p>
-                Desarrollador Backend
-              </p>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <h1 class="title">Yasar</h1>
+              <p>Desarrollador Backend</p>
+              <a href="#"><i class="fab fa-linkedin Git-hub"></i></a>
             </div>
           </div>
         </div>
@@ -35,30 +31,26 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <img src="@/assets/Team/wolf.jpeg" alt="">
+                <img src="@/assets/Team/wolf.jpeg" alt="" />
               </div>
-              <p class="title">Wolf</p>
-              <p>
-                Desarrolladora Frontend
-              </p>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <h1 class="title">Wolf</h1>
+              <p>Tester</p>
+              <a href="#"><i class="fab fa-linkedin Git-hub"></i></a>
             </div>
           </div>
         </div>
       </div>
-      <br>
+      <br />
       <div class="row">
         <div class="col-4">
           <div class="card">
             <div class="card-body">
               <div>
-                <img src="@/assets/Team/andres.jpeg" alt="">
+                <img src="@/assets/Team/andres.jpeg" alt="" />
               </div>
-              <p class="title">Andres</p>
-              <p>
-                Desarrolladora Frontend
-              </p>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <h1 class="title">Andres</h1>
+              <p>Arquitecto</p>
+              <a href="#"><i class="fab fa-linkedin Git-hub"></i></a>
             </div>
           </div>
         </div>
@@ -66,13 +58,11 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <img src="@/assets/Team/jason.jpeg" alt="">
+                <img src="@/assets/Team/jason.jpeg" alt="" />
               </div>
-              <p class="title">Jason</p>
-              <p>
-                Desarrolladora Frontend
-              </p>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <h1 class="title">Jason</h1>
+              <p>Analista</p>
+              <a href="#"><i class="fab fa-linkedin Git-hub"></i></a>
             </div>
           </div>
         </div>
@@ -85,7 +75,6 @@
         <div class="col-6">
           <div class="card">
             <div class="card-body">
-              
               <p class="title">MISIÓN</p>
               <p>
                 Hacer de la energía solar un servicio para la gente, ofreciendo
@@ -100,15 +89,14 @@
         <div class="col-6">
           <div class="card">
             <div class="card-body">
-              
-              <div class="title">VISIÓN </div>
+              <div class="title">VISIÓN</div>
               <p>
-                HACIA EL CLIENTE Facilitar el acceso y uso de las energías renovables,
-                transmitiendo el amor y pasión por la energía solar y el cuidado
-                del medio ambiente. A esto le llamamos: LA ENERGÍA EVOLUCIONA. ​
-                HACIA EL EMPLEADO Ser un lugar de trabajo agradable, donde las
-                personas sean felices donde se cree sentido de pertenencia por
-                la compañía.
+                HACIA EL CLIENTE Facilitar el acceso y uso de las energías
+                renovables, transmitiendo el amor y pasión por la energía solar
+                y el cuidado del medio ambiente. A esto le llamamos: LA ENERGÍA
+                EVOLUCIONA. ​ HACIA EL EMPLEADO Ser un lugar de trabajo
+                agradable, donde las personas sean felices donde se cree sentido
+                de pertenencia por la compañía.
               </p>
             </div>
           </div>
@@ -191,7 +179,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -207,5 +195,10 @@ a {
   text-decoration: none;
   font-size: 22px;
   color: black;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 150px;
 }
 </style>
