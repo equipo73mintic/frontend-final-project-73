@@ -299,6 +299,7 @@ data: () => ({
           nombre: this.editedItem.nombre,
           descripcion: this.editedItem.descripcion,
           codigo: this.editedItem.codigo,
+          urlImage: this.editedItem.urlImage,
           categoriaId: this.categoria.id
         })
         .then(response =>{
@@ -313,6 +314,7 @@ data: () => ({
           nombre: this.editedItem.nombre,
           descripcion: this.editedItem.descripcion,
           codigo: this.editedItem.codigo,
+          urlImage: this.editedItem.urlImage,
           categoriaId: this.categoria.id
         })
         .then(response =>{
