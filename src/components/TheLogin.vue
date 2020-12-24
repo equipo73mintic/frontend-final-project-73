@@ -116,7 +116,7 @@ export default {
         .then((data) => {
           this.$store.dispatch("guardarToken", data.tokenReturn); //Llama al action del store
           this.$router.push("/auth");
-          swal("Éxito!", "Login Correcto", "success");
+          swal("¡Bienvenido/a!", "Login Correcto", "success");
           console.log(data);
         })
         .catch((error) => {

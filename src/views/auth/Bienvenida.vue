@@ -1,3 +1,6 @@
 <template>
-    <h1>Bienvenido Usuario</h1>
+<div>
+    <h1>Bienvenido al área de gestión</h1>
+</div>
+
 </template>

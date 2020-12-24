@@ -37,7 +37,7 @@
     
           <v-list-group
             :value="true"
-            prepend-icon="mdi-account-circle"
+            prepend-icon="mdi-buffer"
           >
               <template v-slot:activator>
                 <v-list-item-content>
@@ -61,7 +61,7 @@
             <v-list-group
             v-if="this.$store.state.user.rol === 'Administrador'"
             :value="false"
-            prepend-icon="mdi-account-circle"
+            prepend-icon="mdi-cog"
 
             >
               <template v-slot:activator>
@@ -104,8 +104,8 @@ export default {
     drawer: null,
    
     admins: [
-      ['Categorias', 'mdi-account-multiple-outline', 'Categorias'],
-      ['Articulos', 'mdi-cog-outline', 'Articulos'],
+      ['Categorias', 'mdi-book', 'Categorias'],
+      ['Servicios', 'mdi-shopping', 'Articulos'],
     ],
     cruds: [
       ['Usuarios', 'mdi-account-multiple-outline', 'Usuarios'],
@@ -116,7 +116,21 @@ export default {
   // },
   methods:{
     salir(){
-      this.$store.dispatch("salir");
+      swal({
+        title: "¿Seguro que quieres cerrar sesión?",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          this.$store.dispatch("salir");
+          swal("Salida exitosa", {
+            icon: "success",
+          });
+        } 
+      });
+
     }
   }
 
