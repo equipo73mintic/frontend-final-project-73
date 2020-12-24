@@ -1,8 +1,12 @@
 <template>
   <div class="landing">
     <landing-carousel> </landing-carousel>
+    <br>
     <landing-info> </landing-info>
+    <br>
+    <br>
     <landing-services> </landing-services>
+    <br>
     <landing-customers> </landing-customers>
     <br>
     <br>
