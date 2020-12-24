@@ -1,26 +1,29 @@
 <template>
-    <v-app id="inspire">
-        <v-app-bar app color="deep-purple darken-4" dark>
-
-            <v-toolbar-title>PageName</v-toolbar-title>
-            <v-spacer></v-spacer>
-
-            <v-btn
-            icon
-            class="mr-5"
-            :to="{path: '/login'}"
-            >
-                <v-icon> mdi-login </v-icon>
-                <span>Log In</span>
-            </v-btn>
-        </v-app-bar>
-
-        <v-main class="">
-            <v-container>
-                 <router-view/>
-            </v-container>
-    </v-main>
-    </v-app>
+  <div class="landign-container">
+    <nav class="navbar navbar-expand-lg float-right">
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav navegadores">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" @click="$router.push({ path: '/' })">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  @click="$router.push({ path: '/nosotros' })" >Nosotros</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" @click="$router.push({ path: '/proyectos' })">Proyectos</a>
+          </li> -->
+         
+          <li class="nav-item">
+            <a class="nav-link" @click="$router.push({ path: '/contacto' })">Testimonios</a>
+          </li>
+        </ul>
+        <a @click="$router.push({ path: '/login' })" type="button" class="myButton">Login</a>
+      </div>
+    </nav>
+    <section>
+      <router-view/>
+    </section>
+  </div>
 </template>
 
 <style>
@@ -32,16 +35,45 @@
   color: #2c3e50;
 }
 
-#nav {
-  padding: 30px;
+
+nav {
+  align-self: flex-end;
+  color: #fff;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
+.landign-container{
+  display: flex; 
+  flex-direction:column;
+  background-color:#000000;
 }
 
-#nav a.router-link-exact-active {
-  color: #42b983;
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #d9fbbe;
+	background:linear-gradient(to bottom, #b8e356 5%, #a5cc52 100%);
+	background-color:#b8e356;
+	border-radius:6px;
+	border:1px solid #8dc13f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #86ae47;
 }
+.myButton:hover {
+	background:linear-gradient(to bottom, #a5cc52 5%, #b8e356 100%);
+	background-color:#a5cc52;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.nav-link{
+  color:  #8dc13f !important;
+}
+
 </style>

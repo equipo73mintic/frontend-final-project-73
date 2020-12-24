@@ -1,10 +1,10 @@
 <template>
   <div class="home">
-    <LandingPage/>
+    <landing-page></landing-page>
   </div>
 </template>
 
-<script>
+<script>  
 // @ is an alias to /src
 import LandingPage from '@/components/LandingPage.vue'
 
@@ -15,3 +15,8 @@ export default {
   }
 }
 </script>
+<style >
+ .home{
+   background-color:white;
+ }
+</style>

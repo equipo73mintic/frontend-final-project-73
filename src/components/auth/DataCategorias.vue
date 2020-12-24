@@ -13,7 +13,7 @@
         <v-toolbar
           flat
         >
-          <v-toolbar-title>Lista de Categorias</v-toolbar-title>
+          <v-toolbar-title>Lista de Categorías</v-toolbar-title>
           <v-divider
             class="mx-4"
             inset

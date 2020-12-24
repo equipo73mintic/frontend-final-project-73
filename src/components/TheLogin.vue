@@ -16,9 +16,9 @@
         <div class="d-flex justify-content-center form_container">
            
           <form>
-
             <div class="text_company">
             <div class="d-flex justify-content-center links">Green Energy</div>
+            <!-- padding -->
           </div>
 
             <div class="input-group mb-3">
@@ -78,6 +78,7 @@
             </a>
           </div>
         </div>
+        
       </div>
     </div>
   </div>
@@ -115,7 +116,7 @@ export default {
         .then((data) => {
           this.$store.dispatch("guardarToken", data.tokenReturn); //Llama al action del store
           this.$router.push("/auth");
-          swal("Éxito!", "Login Correcto", "success");
+          swal("¡Bienvenido/a!", "Login Correcto", "success");
           console.log(data);
         })
         .catch((error) => {
@@ -209,12 +210,14 @@ export default {
 
 .text {
   color: #355a2a !important;
-  font: oblique bold 90% cursive;
+  font-family: 'Nerko One', cursive;
+  /* font: oblique bold 90% cursive; */
   font-style: italic;
 }
 
 .text_company {
   color: #355a2a !important;
-  font: oblique bold 120% cursive;
+  font-family: 'Nerko One', cursive;
+  /* font: oblique bold 120% cursive; */
 }
 </style>

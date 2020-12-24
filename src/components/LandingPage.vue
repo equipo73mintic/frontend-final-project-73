@@ -1,64 +1,54 @@
 <template>
-  <v-container>
-    <h1>landing</h1>
-  </v-container>
+  <div class="landing">
+    <landing-carousel> </landing-carousel>
+    <br>
+    <landing-info> </landing-info>
+    <br>
+    <br>
+    <landing-services> </landing-services>
+    <br>
+    <landing-customers> </landing-customers>
+    <br>
+    <br>
+    <landing-footer> </landing-footer>
+  </div>
 </template>
 
 <script>
-  export default {
-    name: 'LandingPage',
+import LandingCarousel from "@/components/LandingCarousel.vue";
+import LandingInfo from "@/components/LandingInfo.vue";
+import LandingServices from "@/components/LandingServices.vue";
+import LandingCustomers from "@/components/LandingCustomers.vue";
+import LandingFooter from "@/components/LandingFooter.vue";
 
-    data: () => ({
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader',
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify',
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify',
-        },
-      ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com',
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com',
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuejs.com/vuetify',
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs',
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify',
-        },
-      ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer',
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/getting-started/pre-made-layouts',
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions',
-        },
-      ],
-    }),
-  }
+export default {
+  name: "LandingPage",
+  components: {
+    LandingCarousel,
+    LandingInfo,
+    LandingServices,
+    LandingCustomers,
+    LandingFooter,
+  },
+
+}
 </script>
+
+
+<style>
+ .section{
+   font-family: 'Nerko One', cursive;
+   font-size: 30px;
+   color:  #355a2a;
+   text-align:center;
+ }
+ p{
+   font-family: 'Patrick Hand', cursive;
+   font-size: 20px;
+ }
+ h3{
+   font-family: 'Patrick Hand', cursive;
+    color: #8dc13f
+ }
+</style>
+
