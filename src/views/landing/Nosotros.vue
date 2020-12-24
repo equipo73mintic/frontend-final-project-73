@@ -1,6 +1,8 @@
 <template>
   <div class="nosotros">
     <nosotros-router></nosotros-router>
+    <br>
+    <br>
     <landing-footer> </landing-footer>
   </div>
 </template>
