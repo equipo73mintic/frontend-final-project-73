@@ -30,3 +30,21 @@ export default {
 }
 </script>
 
+
+<style>
+ .section{
+   font-family: 'Nerko One', cursive;
+   font-size: 30px;
+   color:  #355a2a;
+   text-align:center;
+ }
+ p{
+   font-family: 'Patrick Hand', cursive;
+   font-size: 20px;
+ }
+ h3{
+   font-family: 'Patrick Hand', cursive;
+    color: #8dc13f
+ }
+</style>
+

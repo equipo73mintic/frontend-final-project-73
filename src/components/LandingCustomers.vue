@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>Nuestros Clientes</div>
+    <div class="section">Nuestros Clientes</div>
     <div class="slider">
       <div class="slide-track">
         <div class="slide">

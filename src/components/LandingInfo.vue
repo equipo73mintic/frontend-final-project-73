@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div>Contribuimos a la disminución de la huella de carbon</div>
+    <div class="section">Contribuimos a la disminución de la huella de carbon</div>
     <div class="row">
       <div class="col-4">
         <div class="row">
@@ -39,7 +39,7 @@
       </div>
     </div>
 
-    <div>Proyectos</div>
+    <div class="section">Proyectos</div>
     <div class="row">
       <!-- car 1 -->
       <div class="flip-card">
@@ -48,8 +48,8 @@
             <img src="@/assets/ImagenesProyecto/pro1.png" />
           </div>
           <div class="flip-card-back">
-            <span class="title-projects"
-              >Sistema fotovoltaico en zona rural</span
+            <p class="title-projects"
+              >Sistema fotovoltaico en zona rural</p
             >
             <br />
             <br />
@@ -67,8 +67,8 @@
             <img src="@/assets/ImagenesProyecto/pro2.png" />
           </div>
           <div class="flip-card-back">
-            <span class="title-projects"
-              >Purificador de Agua en zonas costeras</span
+            <p class="title-projects"
+              >Purificador de Agua en zonas costeras</p
             >
             <br />
             <br />
@@ -86,7 +86,7 @@
             <img src="@/assets/ImagenesProyecto/pro3.png" />
           </div>
           <div class="flip-card-back">
-            <span class="title-projects">Edificio Verde</span>
+            <p class="title-projects">Edificio Verde</p>
             <br />
             <br />
             <p>Ciudad de Bogotá D.C.</p>

@@ -1,24 +1,28 @@
 <template>
-  <h1 class="container">
+  <div class="container">
+    <div class="section">Nuestros Servicios</div>
     <div class="row">
       <div class="col-4" v-bind:key="service" v-for="service in services">
         <div class="card">
           <div class="card-body">
-            
-            <img class="image" v-bind:src="service.urlImage" alt="" />
+            <div class="container">
+
+            <img class="image" v-bind:src="service.urlImage"  />
 
             <div class="title">
-              <h3>{{ service.codigo }}-{{ service.nombre }}</h3>
+              <h3> <strong> {{ service.nombre }} </strong> </h3>
             </div>
 
             <p class="description">
               {{ service.descripcion }}
             </p>
+
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </h1>
+  </div>
 </template>
 
 <script>
@@ -55,5 +59,9 @@ export default {
 .image{
   height: 50%;
   width: 50%
+}
+
+.card {
+    min-height: 350px;
 }
 </style>

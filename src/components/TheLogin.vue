@@ -210,12 +210,14 @@ export default {
 
 .text {
   color: #355a2a !important;
-  font: oblique bold 90% cursive;
+  font-family: 'Nerko One', cursive;
+  /* font: oblique bold 90% cursive; */
   font-style: italic;
 }
 
 .text_company {
   color: #355a2a !important;
-  font: oblique bold 120% cursive;
+  font-family: 'Nerko One', cursive;
+  /* font: oblique bold 120% cursive; */
 }
 </style>
