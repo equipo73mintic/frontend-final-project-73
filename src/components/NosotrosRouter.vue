@@ -7,7 +7,7 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <i class="fab fa-facebook-f fa-fw Git-hub"> </i>
+                <img src="@/assets/Team/geral.jpeg" alt="">
               </div>
               <p class="title">Geraldine Claros</p>
               <p>
@@ -21,11 +21,11 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <i class="fab fa-facebook-f fa-fw Git-hub"> </i>
+                <img src="@/assets/Team/yaser.jpeg" alt="">
               </div>
-              <p class="title">Geraldine Claros</p>
+              <p class="title">Yasar</p>
               <p>
-                Desarrolladora Frontend
+                Desarrollador Backend
               </p>
               <a href="#"><i class="fab fa-linkedin"></i></a>
             </div>
@@ -35,9 +35,9 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <i class="fab fa-facebook-f fa-fw Git-hub"> </i>
+                <img src="@/assets/Team/wolf.jpeg" alt="">
               </div>
-              <p class="title">Geraldine Claros</p>
+              <p class="title">Wolf</p>
               <p>
                 Desarrolladora Frontend
               </p>
@@ -52,9 +52,9 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <i class="fab fa-facebook-f fa-fw Git-hub"> </i>
+                <img src="@/assets/Team/andres.jpeg" alt="">
               </div>
-              <p class="title">Geraldine Claros</p>
+              <p class="title">Andres</p>
               <p>
                 Desarrolladora Frontend
               </p>
@@ -66,9 +66,9 @@
           <div class="card">
             <div class="card-body">
               <div>
-                <i class="fab fa-facebook-f fa-fw Git-hub"> </i>
+                <img src="@/assets/Team/jason.jpeg" alt="">
               </div>
-              <p class="title">Geraldine Claros</p>
+              <p class="title">Jason</p>
               <p>
                 Desarrolladora Frontend
               </p>
