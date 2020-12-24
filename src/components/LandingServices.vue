@@ -6,17 +6,21 @@
         <div class="card">
           <div class="card-body">
             <div class="container">
-
-            <img class="image" v-bind:src="service.urlImage"  />
-
-            <div class="title">
-              <h3> <strong> {{ service.nombre }} </strong> </h3>
-            </div>
-
-            <p class="description">
-              {{ service.descripcion }}
-            </p>
-
+              <div class="row">
+                <img class="image" v-bind:src="service.urlImage" />
+              </div>
+              <div class="row">
+                <div class="title">
+                  <h3>
+                    <strong> {{ service.nombre }} </strong>
+                  </h3>
+                </div>
+              </div>
+              <div class="row">
+                <p class="description">
+                  {{ service.descripcion }}
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -57,11 +61,11 @@ export default {
 }
 
 .image{
-  height: 50%;
-  width: 50%
+  min-width: 300px;
+  min-height: 200px;
 }
 
 .card {
-    min-height: 200px;
+  min-height: 400px;
 }
 </style>
