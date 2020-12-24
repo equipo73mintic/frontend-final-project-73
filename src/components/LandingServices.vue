@@ -3,7 +3,7 @@
     <div class="section">Nuestros Servicios</div>
     <div class="row">
       <div class="col-4" v-bind:key="service" v-for="service in services">
-        <div class="card">
+        <div class="card" v-if="service.estado > 0">
           <div class="card-body">
             <div class="container">
 
