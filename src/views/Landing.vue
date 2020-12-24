@@ -9,12 +9,12 @@
           <li class="nav-item">
             <a class="nav-link"  @click="$router.push({ path: '/nosotros' })" >Nosotros</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link" @click="$router.push({ path: '/proyectos' })">Proyectos</a>
-          </li>
+          </li> -->
          
           <li class="nav-item">
-            <a class="nav-link" @click="$router.push({ path: '/contacto' })">Contacto</a>
+            <a class="nav-link" @click="$router.push({ path: '/contacto' })">Testimonios</a>
           </li>
         </ul>
         <a @click="$router.push({ path: '/login' })" type="button" class="myButton">Login</a>
