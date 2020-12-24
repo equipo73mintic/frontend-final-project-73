@@ -80,6 +80,11 @@
         </blockquote>
       </div>
       <div class="card text-center">
+        <img
+          class="card-img-top"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0f7eGjjs4wwfvxpHCZ6EToB_5UsniPLN19Q&usqp=CAU"
+          alt="Card image cap"
+        />
         <div class="card-body">
           <h5 class="card-title">Sebastian Cobo</h5>
           <p class="card-text">
@@ -114,8 +119,13 @@
         </blockquote>
       </div> -->
       <div class="card">
+        <img
+          class="card-img-top"
+          src="https://www.prensalibre.com/wp-content/uploads/2018/12/685f8470-ec53-410e-83ea-5e30c4319a40.jpg?quality=82&w=760&h=430&crop=1"
+          alt="Card image cap"
+        />
         <div class="card-body">
-          <h5 class="card-title">Dario Burbano</h5>
+          <h5 class="card-title">Daniell Fille</h5>
           <p class="card-text">
             Soy francesa y puedo decir que el nivel de esta empresa es
             excepcional. Trato muy atento, honesto y transparente. Resolvieron
